@@ -1,0 +1,230 @@
+.homepage{
+    position: absolute;
+    background: url('background.jpg.avif') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.homepage h2{
+    font-size: 50px;
+    position: absolute;
+    left: 24%;
+    top: 10%;
+    color: white;
+}
+
+.homepage .conn1{
+    position: absolute;
+    left: 88%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.homepage .conn1:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.homepage .conn2{
+    position: absolute;
+    left: 94%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.homepage .conn2:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.homepage .conn3{
+    position: absolute;
+    left: 79%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.homepage .conn3:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.homepage .conn4{
+    position: absolute;
+    left: 72%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.homepage .conn4:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.homepage .conn5{
+    position: absolute;
+    left: 20%;
+    color: white;
+    font-size: 30px;
+    top: 65%;
+    text-decoration-line: none ;
+}
+
+.homepage .conn5:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.homepage .conn6{
+    position: absolute;
+    left: 47%;
+    color: white;
+    font-size: 30px;
+    top: 65%;
+    text-decoration-line: none ;
+}
+
+.homepage .conn6:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.homepage .conn7{
+    position: absolute;
+    left: 79%;
+    color: white;
+    font-size: 30px;
+    top: 65%;
+    text-decoration-line: none ;
+}
+
+.homepage .conn7:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.homepage h3{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 25%;
+    top: 21%;
+}
+
+.homepage h4{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    left: 62%;
+    top: 19%;
+}
+
+.homepage h5{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 47%;
+    top: 25%;
+}
+
+.homepage h6{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    left: 40%;
+    top: 27%;
+}
+
+.homepage .b1{
+    position: absolute;
+    font-size: 60px;
+    left: 20%;
+    top: 56%;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.homepage .l1{
+    color: white;
+    position: absolute;
+    left: 17%;
+    top: 70%;
+}
+
+.homepage .l2{
+    color: white;
+    position: absolute;
+    left: 16%;
+    top: 73%;
+}
+
+.homepage .b2{
+    position: absolute;
+    font-size: 60px;
+    left: 50%;
+    top: 56%;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.homepage .l3{
+    color: white;
+    position: absolute;
+    left: 47%;
+    top: 70%;
+}
+
+.homepage .l4{
+    color: white;
+    position: absolute;
+    left: 46%;
+    top: 73%;   
+}
+
+.homepage .b3{
+    position: absolute;
+    font-size: 58px;
+    left: 80%;
+    top: 56%;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.homepage .l5{
+    color: white;
+    position: absolute;
+    left: 77%;
+    top: 70%;
+}
+
+.homepage .l6{
+    color: white;
+    position: absolute;
+    left: 76%;
+    top: 73%;
+}

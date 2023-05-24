@@ -1,0 +1,157 @@
+.MyProfile{
+    position: absolute;
+    background: url('background.jpg.avif') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.MyProfile h1{
+    font-size: 50px;
+    position: absolute;
+    left: 33%;
+    top: 12%;
+    color: white;
+}
+
+.conn1{
+    position: absolute;
+    left: 88%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn1:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn2{
+    position: absolute;
+    left: 94%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn2:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn3{
+    position: absolute;
+    left: 79%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn3:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn4{
+    position: absolute;
+    left: 72%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn4:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.MyProfile .conn5{
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    top: 41%;
+    text-decoration-line: none ;
+}
+
+.MyProfile .conn5:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.MyProfile .conn6{
+    position: absolute;
+    left: 47%;
+    color: white;
+    font-size: 30px;
+    top: 61%;
+    text-decoration-line: none ;
+}
+
+.MyProfile .conn6:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.MyProfile .conn7{
+    position: absolute;
+    left: 49%;
+    color: white;
+    font-size: 30px;
+    top: 80%;
+    text-decoration-line: none ;
+}
+
+.MyProfile .conn7:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.MyProfile .b1{
+    position: absolute;
+    font-size: 60px;
+    left: 50%;
+    top: 32%;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.MyProfile .b2{
+    position: absolute;
+    font-size: 60px;
+    left: 50%;
+    top: 51%;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.MyProfile .b3{
+    position: absolute;
+    font-size: 58px;
+    left: 50%;
+    top: 71%;
+    background: transparent;
+    border: none;
+    color: white;
+}

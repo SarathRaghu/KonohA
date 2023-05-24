@@ -1,0 +1,131 @@
+.Files{
+    position: absolute;
+    background: url('background.jpg.avif') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.Files h1{
+    font-size: 50px;
+    position: absolute;
+    left: 28%;
+    top: 8%;
+    color: white;
+}
+
+.Files .fi-1 .l1{
+    position: absolute;
+    top: 63%;
+    left: 41%;
+    color: white;
+}
+
+.Files .fi-1 .up{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+    cursor: pointer;
+}
+
+.Files .fi-1 .but{
+    position: absolute;
+    top: 103%;
+    left: 90%;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Files .fi-1 .but:hover{
+    background: white;
+    color: rgb(17, 0, 255);
+}
+
+.Files .fi-1 section{
+    position: absolute;
+    top: 91%;
+    left: 25%;
+    color: white;
+    cursor: pointer;
+}
+
+.Files .fi-1 form{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 700px;
+    height: 550px;
+    border: 2px dashed black;
+    background: white;
+    color: whitesmoke;
+}
+
+.conn1{
+    position: absolute;
+    left: 88%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn1:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn2{
+    position: absolute;
+    left: 94%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn2:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn3{
+    position: absolute;
+    left: 79%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn3:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn4{
+    position: absolute;
+    left: 72%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn4:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}

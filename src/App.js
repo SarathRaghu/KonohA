@@ -1,25 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+const express = require("express")
+const collection = require("./mongo")
+const cors = require("cors")
+const app = express()
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+app.use(cors())
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+app.get("/", cors(), (req,res) => {
+
+})
+
+
+app.post("/", async (req,res) => {
+    const { email,password } = req.body
+
+    try {
+
+        const check = await collection.findOne({email:email,password:password})
+
+        if(check) {
+                res.json("exist")
+        }
+        else {
+            res.json("notexist")
+        }
+
+    }
+    catch(e){
+        res.json("notexist")
+    }
+})
+app.post("/Signup", async (req,res) => {
+    const { email,password } = req.body
+
+    const data = {
+        email:email,
+        password:password
+    }
+
+    try {
+
+        const check = await collection.findOne({ email:email })
+
+        if(check) {
+            res.json("exist")
+        }
+        else {
+            res.json("notexist")
+            await collection.insertMany([data])
+        }
+
+    }
+    catch(e){
+        res.json("notexist")
+    }
+
+})
+
+app.listen(3000, () => {
+    console.log("Port connected");
+})

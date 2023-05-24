@@ -1,0 +1,176 @@
+.signup{
+    position: absolute;
+    background: url('background.jpg.avif') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.signup h1{
+    font-size: 60px;
+    position: absolute;
+    left: 42%;
+    top: 20%;
+    color: white;
+}
+
+.signup h2{
+    position: absolute;
+    top: 7%;
+    left: 33%;
+    font-size: 70px;
+    color: white;
+}
+
+.signup .fname{
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    width: 270px;
+    height: 25px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+.signup .lname{
+    position: absolute;
+    top: 48%;
+    left: 41%;
+    width: 270px;
+    height: 25px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+.signup .mail{
+    position: absolute;
+    top: 56%;
+    left: 41%;
+    width: 270px;
+    height: 25px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+.signup .pass{
+    position: absolute;
+    top: 64%;
+    left: 41%;
+    width: 270px;
+    height: 25px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+.signup .sub{
+    position: absolute;
+    top: 72%;
+    left: 41%;
+    width: 275px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(246, 67, 67);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.signup p{
+    position: absolute;
+    top: 76%;
+    left: 41%;
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+}
+
+.signup .conn{
+    position: absolute;
+    top: 76%;
+    left: 54%;
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+    text-decoration-line: none;
+}
+
+.signup .conn:hover{
+    text-decoration-line: underline;
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+    color: rgb(102, 94, 238);
+}
+
+.signup .b1{
+    position: absolute;
+    font-size: 30px;
+    top: 83%;
+    left: 43%;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup .b1:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.signup .b2{
+    position: absolute;
+    font-size: 30px;
+    top: 83%;
+    left: 50%;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup .b2:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.signup .b3{
+    position: absolute;
+    font-size: 30px;
+    top: 83%;
+    left: 57%;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup .b3:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}

@@ -1,0 +1,178 @@
+.Images{
+    position: absolute;
+    background: url('background.jpg.avif') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.Images h1{
+    font-size: 50px;
+    position: absolute;
+    left: 24%;
+    top: 8%;
+    color: white;
+}
+
+.Images .im-1 h2{
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 5%;
+    color: white;
+}
+
+.Images .im-1 h3{
+    position: absolute;
+    font-size: 30px;
+    top: 40%;
+    left: 5%;
+    color: white;
+}
+
+.Images .im-1 h4{
+    position: absolute;
+    font-size: 30px;
+    top: 45%;
+    left: 5%;
+    color: white;
+}
+
+.Images .im-1 h5{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 5%;
+    color: white;
+}
+
+.Images .im-1 h6{
+    position: absolute;
+    font-size: 40px;
+    top: 60%;
+    left: 5%;
+    color: white;
+}
+
+.Images .im-2 form{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    width: 500px;
+    height: 300px;
+    border: 2px dashed rgb(0, 255, 255);
+    color: white;
+}
+
+.Images .im-2 section{
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    color: white;
+}
+
+.Images .im-2 .up{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    color: white;
+    cursor: pointer;
+}
+
+.Images .im-2 .del{
+    position: absolute;
+    left: 100%;
+    top: 13%;
+    color: white;
+    cursor: pointer;
+}
+
+.Images .im-2 .l1{
+    position: absolute;
+    left: 37%;
+    top: 60%;
+    color: white;
+}
+
+.Images .im-2 .but{
+    position: absolute;
+    left: 90%;
+    top: 110%;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border-radius: 20px;
+    border-width: 1px;
+    width: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Images .im-2 .but:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+.conn1{
+    position: absolute;
+    left: 88%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn1:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn2{
+    position: absolute;
+    left: 94%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn2:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn3{
+    position: absolute;
+    left: 79%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn3:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn4{
+    position: absolute;
+    left: 72%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn4:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}

@@ -1,0 +1,111 @@
+.Notes{
+    position: absolute;
+    background: url('background.jpg.avif') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.Notes h2{
+    font-size: 50px;
+    position: absolute;
+    left: 26%;
+    top: 8%;
+    color: white;
+}
+
+.Notes .Note{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 60%;
+    width: 48%;
+    font-size: 20px;
+    border-radius: 10px;
+    background: transparent;
+    white-space: pre-wrap;
+    border: 10px solid rgba(255, 255, 255, 0.326);;
+    backdrop-filter: blur(100px);
+    color: white;
+}
+
+.conn1{
+    position: absolute;
+    left: 88%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn1:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn2{
+    position: absolute;
+    left: 94%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn2:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn3{
+    position: absolute;
+    left: 79%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn3:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.conn4{
+    position: absolute;
+    left: 72%;
+    color: white;
+    font-size: 20px;
+    top: 2%;
+    text-decoration-line: none ;
+}
+
+.conn4:hover{
+    text-decoration-line:underline;
+    color: rgb(102, 94, 238);
+    transform: translate3d(0,-5px,0);
+    transition: 0.7s;
+}
+
+.Notes .b{
+    position: absolute;
+    font-size: 20px;
+    left: 46%;
+    top: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+
+.Notes .b:hover{
+    background-color: white;
+    color: darkblue;
+}
+
